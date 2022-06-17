@@ -9,8 +9,9 @@ function setup(){
 	colorPicker = createColorPicker('#ffffff');
 	colorPicker.position(0, 20);
 	fil = "";
-	button = createButton('snapshot');
-	button.position(50/100*windowWidth, windowHeight-50);  
+	button = createButton('foto');
+	button.size(50, 50);  
+	button.center();
 	button.mousePressed(take_snapshot);
 }
 
