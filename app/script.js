@@ -11,7 +11,7 @@ function setup(){
 	fil = "";
 	button = createButton('foto');
 	button.size(50, 50);  
-	button.center();
+	button.position(50/100*windowWidth, windowHeight-10); 
 	button.mousePressed(take_snapshot);
 }
 
