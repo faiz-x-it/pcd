@@ -1,5 +1,5 @@
 function preload(){
-    gambar = loadImage('posmaru.jpg');
+    gambar = loadImage('../img/posmaru.jpg');
 }
 
 function setup(){
@@ -30,7 +30,4 @@ function draw(){
 
 function take_snapshot(){
     save('test.png');
-}
-function copy(){
-    copy(image)
 }
