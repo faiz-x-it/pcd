@@ -31,6 +31,3 @@ function draw(){
 function take_snapshot(){
     save('test.png');
 }
-function copy(){
-    copy(image)
-}
