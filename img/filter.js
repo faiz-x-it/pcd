@@ -1,5 +1,5 @@
 function preload(){
-    gambar = loadImage('posmaru.jpg');
+    gambar = loadImage('aq.jpg');
 }
 
 function setup(){
