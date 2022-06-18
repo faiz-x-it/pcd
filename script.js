@@ -4,15 +4,15 @@ let img;
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   input = createFileInput(handleFile);
-  input.position(100, 200);
+  input.position(100, 240);
 	input.size(100, 26); 
 	colorPicker = createColorPicker('#ffffff');
-	colorPicker.position(50, 200);
+	colorPicker.position(50, 260);
   colorPicker.size(50, 26); 
 	fil = "";
 	button = createButton('save');
 	button.size(50, 26);  
-	button.position(0, 200); 
+	button.position(0, 220); 
 	button.mousePressed(take_snapshot);
 }
 
