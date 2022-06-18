@@ -6,11 +6,11 @@ function setup(){
     canvas = createCanvas(windowWidth, windowHeight-30);
     
 	colorPicker = createColorPicker('#ffffff');
-	colorPicker.position(100, 20);
+	colorPicker.position(50, windowHeight-30);
 	fil = "";
 	button = createButton('foto');
 	button.size(50, 26);  
-	button.position(0, 20); 
+	button.position(0, windowHeight-30); 
 	button.mousePressed(take_snapshot);
 }
 
