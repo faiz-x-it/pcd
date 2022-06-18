@@ -7,11 +7,11 @@ function setup(){
     video = createCapture(VIDEO);
     video.hide();
 	colorPicker = createColorPicker('#ffffff');
-	colorPicker.position(0, 20);
+	colorPicker.position(50, 20);
 	fil = "";
 	button = createButton('foto');
-	button.size(50, 50);  
-	button.position(50/100*windowWidth, windowHeight-10); 
+	button.size(26, 50);  
+	button.position(0, windowHeight-30); 
 	button.mousePressed(take_snapshot);
 }
 
