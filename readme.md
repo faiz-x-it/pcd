@@ -1,3 +1,2 @@
-#untuk tugas uas
-nama : muhammad faiz abdillah
-nim  : 1995114029
+muhammad faiz abdillah
+(1995114029)
